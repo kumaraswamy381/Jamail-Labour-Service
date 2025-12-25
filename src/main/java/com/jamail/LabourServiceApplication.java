@@ -1,4 +1,4 @@
-package com.jamail.config;
+package com.jamail;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
