@@ -1,10 +1,10 @@
-package com.jamail.Jamail_Labour_Service;
+package com.jamail;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JamailLabourServiceApplicationTests {
+class LabourServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
