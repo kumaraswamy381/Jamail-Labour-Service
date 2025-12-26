@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.jamail.Labour.DTO.LabourerDTO;
 
 
-public interface LabourerRepository extends JpaRepository<LabourerDTO, UUID> {
+public interface LabourRepository extends JpaRepository<LabourerDTO, UUID> {
 
     List<LabourerDTO> findByNameContainingIgnoreCase(String name);
 }
