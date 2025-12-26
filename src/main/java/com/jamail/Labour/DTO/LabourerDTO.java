@@ -7,18 +7,17 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-
 @Entity
-@Table(name = "Labourer_Details")
+@Table(name= "Labourer_Details")
 public class LabourerDTO {
 	@Id
 	@GeneratedValue
-	private UUID id;
-
-	@Column(name = "Labour_Name")
+	 private UUID id;
+	 
+	@Column(name= "Labour_Name")
 	private String name;
-
-	@Column(name = "Labour_PhNumber")
+	
+	@Column(name= "Labour_PhNumber")
 	private String PhoneNumber;
 
 	public UUID getId() {
@@ -56,5 +55,6 @@ public class LabourerDTO {
 	public String toString() {
 		return "LabourerDTO [id=" + id + ", name=" + name + ", PhoneNumber=" + PhoneNumber + "]";
 	}
-
+	
+	
 }
